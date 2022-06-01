@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Merriweather', serif;
+  }
+  .nada{
+      height: 100vh;
+      background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("design.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+      
+  }
+
+  .page-section {
+      padding: 6rem 0;
+      }
+
+
+.txt{
+color: #fff;
+}
+
+.txt a{ 
+color: #fff;
+
+transition: all 0.15s ease-in-out;
+}
+
+.txt a:hover{ 
+color: rgb(43, 42, 42);
+
+}
+
+.txt i:hover{ 
+color: rgb(43, 42, 42);
+
+}
+
+.txt button, .txt button span{ 
+color: #fff;
+
+}
+
+
+hr.dividir {
+height: 0.25rem;
+max-width: 25rem;
+margin: 1.5rem auto;
+/* background-color: #f4623a; */
+opacity: 1;
+}
+
+.btn-xl{
+padding: 1.25rem 2.25rem;
+font-size: 0.85rem;
+font-weight: 700;
+text-transform: uppercase;
+border: none;
+border-radius: 10rem;
+
+}
+
+.lado{
+background-color: #FFADAD;
+}
+
+.pie{
+background-color: rgb(216, 211, 211);
+}
